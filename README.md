@@ -10,7 +10,7 @@ A working prototype for **Mohsin Ahmad’s SWMManywhere ecosystem**: inspect a s
 
 | Capability | Current behavior |
 | --- | --- |
-| Synthetic drainage explorer | Inspect six fictional subcatchments, eight nodes and seven pipes over an illustrative 18 ha district. |
+| Synthetic drainage explorer | Inspect six fictional subcatchments, eight nodes and seven pipes over an illustrative/demo 18 ha district. |
 | Demo refinements | Change impervious inputs, street widths, parking and known green classification errors; see live surface accounting. |
 | Scenario comparison | Save browser-local demo scenarios and exchange portable JSON plans. |
 | Custom model import | Load a baseline INP, optional matching GeoJSON and prepared surface CSVs locally. |

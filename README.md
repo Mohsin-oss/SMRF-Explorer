@@ -2,9 +2,11 @@
 
 A working prototype for **Mohsin Ahmad’s SWMManywhere ecosystem**: inspect a synthetic drainage model, preview practical refinements and apply supported surface changes to your own SWMM model through a local Python runner.
 
+**Created and maintained by Mohsin Ahmad**
+
 **Version:** 0.3.0 · **Status:** research prototype · **Repository visibility:** private
 
-[Open the private workspace](https://smrf-model-explorer.mr-hydrogen-bond.chatgpt.site/?v=3#project) · [User guide](docs/USER_GUIDE.md) · [Data formats](docs/DATA_FORMATS.md) · [Runner guide](runner/README.md)
+[Open the private workspace](https://smrf-model-explorer.mr-hydrogen-bond.chatgpt.site/?v=credit#project) · [About SMRF](https://smrf-model-explorer.mr-hydrogen-bond.chatgpt.site/?v=credit#about) · [User guide](docs/USER_GUIDE.md) · [Data formats](docs/DATA_FORMATS.md) · [Runner guide](runner/README.md)
 
 ## What works
 

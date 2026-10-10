@@ -1,0 +1,3 @@
+catchment_id,roof_ha,road_ha,parking_ha,green_correction_ha,baseline_road_width_m
+C1,0.5,0.2,0.1,0.04,6
+C2,0.8,0.4,0.3,0.1,6

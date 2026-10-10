@@ -1,0 +1,29 @@
+name: Validate SMRF
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          package-manager-cache: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version-file: .python-version
+      - name: Test demo and custom processing workflows
+        run: npm test
+      - name: Check static assets and packaged runner
+        run: python scripts/check_distribution.py

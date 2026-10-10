@@ -1,0 +1,15 @@
+{
+  "name": "smrf-model-explorer",
+  "private": true,
+  "version": "0.3.0",
+  "scripts": {
+    "test": "node tests/validate.cjs && node tests/project.cjs",
+    "check:distribution": "python scripts/check_distribution.py",
+    "package:runner": "python scripts/package_runner.py"
+  },
+  "description": "Private SWMManywhere refinement explorer with a browser workspace and local Python runner",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED"
+}

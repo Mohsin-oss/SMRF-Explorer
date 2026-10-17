@@ -37,7 +37,7 @@ cd SMRF-Explorer
 python -m http.server 8000 --bind 127.0.0.1 --directory dist
 ```
 
-Open **http://localhost:8000/**. Use **Upload & customize** for your own model or **Demo explorer** for fictional data. Stop the server with `Ctrl+C`.
+Open [**http://localhost:8000/**](https://smrf-model-explorer.mr-hydrogen-bond.chatgpt.site/?v=credit#project). Use **Upload & customize** for your own model or **Demo explorer** for fictional data. Stop the server with `Ctrl+C`.
 
 Your existing `swmm-env` can run the Python surface workflow. Alternatively, a normal Python installation works because the runner uses only the standard library. You can also open `dist/index.html` directly for a quick look; serving it on localhost is the recommended route for consistent browser file and cryptography behavior.
 
